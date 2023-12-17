@@ -1494,7 +1494,7 @@ if (typeof window !== 'undefined') {
 
 ;// CONCATENATED MODULE: external {"commonjs":"vue","commonjs2":"vue","root":"Vue"}
 var external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject = require("vue");
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/TapirWidget.vue?vue&type=template&id=2bfc6244
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/TapirWidget.vue?vue&type=template&id=65081e56
 
 const _hoisted_1 = {
   class: "text-center font-sans w-96 mx-auto rounded-lg shadow-lg border-solid border-2 p-8"
@@ -1556,12 +1556,12 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     src: $data.recordedAudio,
     type: "audio/mpeg",
     class: "mx-auto"
-  }, _hoisted_11, 8, _hoisted_7), _hoisted_12]), (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)(_component_submit_button, {
-    onSubmit: $options.sendData,
+  }, _hoisted_11, 8, _hoisted_7), _hoisted_12]), $props.buttonColor != 'false' ? ((0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.openBlock)(), (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createBlock)(_component_submit_button, {
+    key: 0,
     color: $props.buttonColor
-  }, null, 8, ["onSubmit", "color"])]);
+  }, null, 8, ["color"])) : (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createCommentVNode)("", true)]);
 }
-;// CONCATENATED MODULE: ./src/components/TapirWidget.vue?vue&type=template&id=2bfc6244
+;// CONCATENATED MODULE: ./src/components/TapirWidget.vue?vue&type=template&id=65081e56
 
 ;// CONCATENATED MODULE: ./src/api/Service.js
 class Service {

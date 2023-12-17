@@ -28,7 +28,7 @@
       </audio>
       <figcaption class="text-sm mt-2">Listen to your recording before submitting.</figcaption>
     </figure>
-    <submit-button @submit="sendData" :color="buttonColor" />
+    <submit-button v-if="buttonColor != 'false'" :color="buttonColor" />
   </div>
 </template>
 
