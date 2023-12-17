@@ -33,6 +33,7 @@ export default class {
     return {
       id: Date.now(),
       blob,
+      raw: buffer,
       url: URL.createObjectURL(blob),
     };
   }

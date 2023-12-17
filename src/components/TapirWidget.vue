@@ -126,7 +126,7 @@ export default {
         this.instructionMessage = null;
       }
       if (this.afterRecording) {
-        this.afterRecording();
+        this.afterRecording(recordList[0]);
       }
     },
     async sendData() {

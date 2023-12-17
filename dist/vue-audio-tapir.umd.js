@@ -1512,7 +1512,7 @@ if (typeof window !== 'undefined') {
 
 // EXTERNAL MODULE: external {"commonjs":"vue","commonjs2":"vue","root":"Vue"}
 var external_commonjs_vue_commonjs2_vue_root_Vue_ = __webpack_require__(7203);
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-82.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/TapirWidget.vue?vue&type=template&id=5f341107
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-82.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/TapirWidget.vue?vue&type=template&id=2bfc6244
 
 const _hoisted_1 = {
   class: "text-center font-sans w-96 mx-auto rounded-lg shadow-lg border-solid border-2 p-8"
@@ -1579,7 +1579,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     color: $props.buttonColor
   }, null, 8, ["onSubmit", "color"])]);
 }
-;// CONCATENATED MODULE: ./src/components/TapirWidget.vue?vue&type=template&id=5f341107
+;// CONCATENATED MODULE: ./src/components/TapirWidget.vue?vue&type=template&id=2bfc6244
 
 ;// CONCATENATED MODULE: ./src/api/Service.js
 class Service {
@@ -1677,6 +1677,7 @@ function convertTimeMMSS(seconds) {
     return {
       id: Date.now(),
       blob,
+      raw: buffer,
       url: URL.createObjectURL(blob)
     };
   }
@@ -2028,7 +2029,7 @@ const ERROR_SUBMITTING_MESSAGE = "Error submitting audio message! Please try aga
       }
 
       if (this.afterRecording) {
-        this.afterRecording();
+        this.afterRecording(recordList[0]);
       }
     },
 
